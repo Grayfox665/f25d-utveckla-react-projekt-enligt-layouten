@@ -1,3 +1,3 @@
-export default function TagButton(btnName) {
-  return <button>{btnName}</button>;
+export default function TagButton({ tagBtn }) {
+  return <button>{tagBtn}</button>;
 }
