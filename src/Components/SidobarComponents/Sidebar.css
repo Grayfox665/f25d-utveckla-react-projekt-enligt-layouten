@@ -1,0 +1,40 @@
+.sidebar {
+  height: 100%;
+  width: 310px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: -310px;
+  background-color: rgb(126, 40, 206);
+  margin-top: 60px;
+  overflow: hidden;
+  transition: left 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  left: 0;
+  box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+  background-color: blueviolet;
+}
+
+@media (width <= 400px) {
+  .sidebar.open {
+    left: -100px;
+  }
+}
