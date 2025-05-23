@@ -7,9 +7,14 @@ import { useState } from "react";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const tagBtnLabels = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
+  };
+
+  const handleClick = (label) => {
+    console.log(`${label} button was clicked!`);
   };
 
   return (
@@ -21,7 +26,7 @@ function App() {
       <SideBar isOpen={isSidebarOpen} />
       <div className="App-body">
         <PostList />
-        <TagList />
+        <TagList btns={tagBtnLabels} onBtnClick={handleClick} />
       </div>
     </div>
   );
