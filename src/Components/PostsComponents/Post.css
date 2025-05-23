@@ -1,0 +1,15 @@
+.post {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.post h2 {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.post p {
+  padding: 1rem;
+}

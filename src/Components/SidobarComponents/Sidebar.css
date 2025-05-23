@@ -33,7 +33,7 @@
   background-color: blueviolet;
 }
 
-@media (width <= 400px) {
+@media (width <= 800px) {
   .sidebar.open {
     left: -100px;
   }

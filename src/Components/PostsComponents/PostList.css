@@ -1,0 +1,14 @@
+.Posts-container {
+  background-color: rgb(248, 242, 242);
+  border-radius: 5px;
+  height: auto;
+  width: 30rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (width <= 800px) {
+  .Posts-container {
+    width: 25rem;
+  }
+}
