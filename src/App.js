@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <NavBar toggleSidebar={toggleSidebar} />
       <header>
-        <h1>F25D Borås YH - React Kurs</h1>
+        <h1 className="Header">F25D Borås YH - React Kurs</h1>
       </header>
       <SideBar isOpen={isSidebarOpen} />
       <div className="App-body">

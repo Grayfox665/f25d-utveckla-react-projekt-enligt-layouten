@@ -1,0 +1,11 @@
+.Tagbtn-list {
+  background-color: rgb(197, 170, 223);
+  border-radius: 5px;
+  display: flex;
+  height: 250px;
+  width: 225px;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}

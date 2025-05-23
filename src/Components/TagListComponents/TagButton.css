@@ -1,0 +1,12 @@
+.tag-button {
+  height: 2rem;
+  width: 6rem;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+}
+
+.tag-button:hover {
+  background-color: rgb(126, 40, 206);
+}
