@@ -12,3 +12,15 @@
     width: 25rem;
   }
 }
+
+@media (width <= 450px) {
+  .Posts-container {
+    width: 24rem;
+  }
+}
+
+@media (width <= 400px) {
+  .Posts-container {
+    width: 22rem;
+  }
+}
